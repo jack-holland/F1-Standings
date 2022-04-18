@@ -1,0 +1,63 @@
+body {
+    background-image: url('./background.png');
+}
+
+.points {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+/* Team Colours */
+.team { 
+    border-left: 5px solid;
+}
+
+.ferrari {
+    border-color: #F91536;
+}
+
+.mercedes {
+    border-color: #6CD3BF;
+}
+
+.red_bull {
+    border-color: #3671C6;
+}
+
+.alpine {
+    border-color: #2293D1;
+}
+
+.haas {
+    border-color: #B6BABD;
+}
+
+.alfa {
+    border-color: #C92D4B;
+}
+
+.mclaren { 
+    border-color: #F58020;
+}
+
+.alphatauri {
+    border-color: #5E8FAA;
+}
+
+.aston_martin { 
+    border-color: #358C75
+}
+
+.williams {
+    border-color: #37BEDD;
+}
+
+/* Loader */
+.loading {
+    font-size: 1.5rem;
+}
