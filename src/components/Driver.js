@@ -12,8 +12,8 @@ const Driver = ({ driver }) => {
                         <Row className="d-flex align-items-center">
                             <Col xl="4" lg="5" md="6" sm="12" className="d-flex align-items-center justify-content-center">
                                 <div className="points mx-3">#{driver.position}</div>
-                                <img src={`./images/drivers/${driver.Driver.driverId}.png`} alt={`${constructor.Constructor.givenName} ${constructor.Constructor.familyName}`} height="103" width="103" className="mx-3" />
-                                <div className="d-flex align-items-center ms-3"><img src={`./images/numbers/${driver.Driver.permanentNumber}.png`} height="42" width="75" alt={`Driver number ${constructor.Constructor.permanentNumber}`} /></div>
+                                <img src={`./images/drivers/${driver.Driver.driverId}.png`} alt={`${driver.Driver.givenName} ${driver.Driver.familyName}`} height="103" width="103" className="mx-3" />
+                                <div className="d-flex align-items-center ms-3"><img src={`./images/numbers/${driver.Driver.permanentNumber}.png`} height="42" width="75" alt={`Driver number ${driver.Driver.permanentNumber}`} /></div>
                             </Col>
                             
                             <Col xl="8" lg="7" md="6" sm="12" className={`team ${driver.Constructors[0].constructorId} p-3`}>
