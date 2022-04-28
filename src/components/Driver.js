@@ -12,7 +12,7 @@ const Driver = ({ driver }) => {
                         <Row className="d-flex align-items-center">
                             <Col xl="4" lg="5" md="6" sm="12" className="d-flex align-items-center justify-content-center">
                                 <div className="points mx-3">#{driver.position}</div>
-                                <img src={`./images/drivers/${driver.Driver.familyName}.png`} height="103" width="103" className="mx-3" />
+                                <img src={`./images/drivers/${driver.Driver.driverId}.png`} height="103" width="103" className="mx-3" />
                                 <div className="d-flex align-items-center ms-3"><img src={`./images/numbers/${driver.Driver.permanentNumber}.png`} height="42" width="75" alt="Driver number" /></div>
                             </Col>
                             
