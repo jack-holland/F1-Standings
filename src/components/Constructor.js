@@ -12,7 +12,7 @@ const Constructor = ({ constructor }) => {
                         <Row>
                             <Col xl="5" lg="4" md="6" className="d-flex justify-content-center gap-4">
                                 <div className="d-flex align-items-center points">#{constructor.position}</div>
-                                <div><img src={`./images/teams/${constructor.Constructor.constructorId}.png`} height="51" width="51" alt={constructor.Constructor.constructorId} /></div>
+                                <div><img src={`./images/teams/${constructor.Constructor.constructorId}.png`} height="51" width="51" alt={`Logo of ${constructor.Constructor.name}`} /></div>
                             </Col>
 
                             <Col xl="7" lg="8" md="6" className={`team ${constructor.Constructor.constructorId}`}>
