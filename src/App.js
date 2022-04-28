@@ -19,7 +19,7 @@ function App() {
         <div className="App">
           <Header />
           <Navbar setPage={setPage} />
-          <div class="content">
+          <div className="content">
             <Container>
               { page === 'drivers' ? <Drivers /> : <Constructors /> }
             </Container>
